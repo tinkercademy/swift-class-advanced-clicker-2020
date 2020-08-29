@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AF973E4F24F9E24200879DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF973E4E24F9E24200879DE7 /* AppDelegate.swift */; };
 		AF973E5124F9E24200879DE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF973E5024F9E24200879DE7 /* SceneDelegate.swift */; };
-		AF973E5324F9E24200879DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF973E5224F9E24200879DE7 /* ViewController.swift */; };
+		AF973E5324F9E24200879DE7 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF973E5224F9E24200879DE7 /* ClickerViewController.swift */; };
 		AF973E5624F9E24200879DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF973E5424F9E24200879DE7 /* Main.storyboard */; };
 		AF973E5824F9E24900879DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF973E5724F9E24900879DE7 /* Assets.xcassets */; };
 		AF973E5B24F9E24900879DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF973E5924F9E24900879DE7 /* LaunchScreen.storyboard */; };
+		AF973E6324F9E56900879DE7 /* ScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF973E6224F9E56900879DE7 /* ScoreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF973E4B24F9E24100879DE7 /* Advanced Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF973E4E24F9E24200879DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF973E5024F9E24200879DE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF973E5224F9E24200879DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF973E5224F9E24200879DE7 /* ClickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
 		AF973E5524F9E24200879DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF973E5724F9E24900879DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF973E5A24F9E24900879DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF973E5C24F9E24900879DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF973E6224F9E56900879DE7 /* ScoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				AF973E4E24F9E24200879DE7 /* AppDelegate.swift */,
 				AF973E5024F9E24200879DE7 /* SceneDelegate.swift */,
-				AF973E5224F9E24200879DE7 /* ViewController.swift */,
+				AF973E5224F9E24200879DE7 /* ClickerViewController.swift */,
 				AF973E5424F9E24200879DE7 /* Main.storyboard */,
+				AF973E6224F9E56900879DE7 /* ScoreTableViewController.swift */,
 				AF973E5724F9E24900879DE7 /* Assets.xcassets */,
 				AF973E5924F9E24900879DE7 /* LaunchScreen.storyboard */,
 				AF973E5C24F9E24900879DE7 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF973E5324F9E24200879DE7 /* ViewController.swift in Sources */,
+				AF973E6324F9E56900879DE7 /* ScoreTableViewController.swift in Sources */,
+				AF973E5324F9E24200879DE7 /* ClickerViewController.swift in Sources */,
 				AF973E4F24F9E24200879DE7 /* AppDelegate.swift in Sources */,
 				AF973E5124F9E24200879DE7 /* SceneDelegate.swift in Sources */,
 			);
