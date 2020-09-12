@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z9z-80-WG1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z9z-80-WG1">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -72,13 +72,44 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSj-k5-kb6">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="360"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EIh-ci-AJf">
+                                <rect key="frame" x="0.0" y="39" width="414" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="360"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g01-9k-Xpm">
+                                <rect key="frame" x="0.0" y="39" width="414" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="360"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tz5-FQ-y2N">
+                                <rect key="frame" x="0.0" y="39" width="414" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.99721642020000001" green="0.58087854880000001" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6SD-1q-vTy" secondAttribute="trailing" constant="10" id="5ZY-Ra-sgO"/>
+                            <constraint firstItem="oSj-k5-kb6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5fk-fj-qyI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6SD-1q-vTy" secondAttribute="bottom" constant="200" id="5iy-HN-Su8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oSj-k5-kb6" secondAttribute="trailing" id="BOG-78-VB0"/>
+                            <constraint firstItem="oSj-k5-kb6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dcB-R6-Mom"/>
                             <constraint firstItem="6SD-1q-vTy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="eFK-Le-hRk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oSj-k5-kb6" secondAttribute="bottom" id="feG-zH-ecI"/>
                             <constraint firstItem="6SD-1q-vTy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="x9m-we-TpG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -88,6 +119,10 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="6SD-1q-vTy" id="Wbk-y7-wbx"/>
+                        <outlet property="labelFor1" destination="g01-9k-Xpm" id="GaD-UC-Pq3"/>
+                        <outlet property="labelFor2" destination="EIh-ci-AJf" id="4dj-Gr-Xwa"/>
+                        <outlet property="labelFor3" destination="oSj-k5-kb6" id="gFq-F0-K9M"/>
+                        <outlet property="labelForGo" destination="tz5-FQ-y2N" id="BRY-Rc-xj7"/>
                         <segue destination="mcZ-FA-ydH" kind="unwind" identifier="unwindToScores" unwindAction="unwindToScoresWithSegue:" id="G42-FQ-FQC"/>
                     </connections>
                 </viewController>
